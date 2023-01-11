@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  position: relative;
+  background: hsl(218deg 50% 91%);
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #bac7d8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: hsl(218deg 50% 91%);
+  justify-content: center;
+
+}
+
+
+
+.dashboard{
+  height: 600PX;
+  width: 1000PX;
+}
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+}
+
+.label{
+  display:flex;
+  flex-direction:column;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.iframe-container {
+  text-align:center;
+  width:100%;
+}
+.welcome{
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
