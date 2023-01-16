@@ -21,10 +21,10 @@ export default function Home() {
       <ul>
 
           
-        <button>
+        <button className="custom-button">
           <Link to="/Register">Register</Link>
         </button>
-        <button>
+        <button className="custom-button">
           <Link to="/Dashboard">Dashboard</Link>
         </button>
       </ul>

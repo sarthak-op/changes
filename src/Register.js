@@ -53,6 +53,7 @@ export default function Register() {
   return (
     
     <div className="App">
+      <br/>
       <strong>Register New RPA</strong>
       <form className='form-group'
       onSubmit={handleSubmit}>
@@ -132,7 +133,7 @@ export default function Register() {
               />
             </label>
           </div>
-          <div>
+          {/* <div>
             <label className="label">
               Status:
               <input
@@ -141,7 +142,7 @@ export default function Register() {
                 onChange={(e) => setCstatus(e.target.value)}
               />
             </label>
-          </div>
+          </div> */}
           <div>
             <label className="label">
               Count:
@@ -152,6 +153,7 @@ export default function Register() {
               />
             </label>
           </div>
+          <br/>
           <div>
             <button type="submit" className="btn btn-primary">
               Submit
